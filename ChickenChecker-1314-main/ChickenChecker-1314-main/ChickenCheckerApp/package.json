@@ -1,0 +1,47 @@
+{
+  "name": "chickencheckerapp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "proxy": "http://localhost:8000",
+  "dependencies": {
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/native-stack": "^6.2.5",
+    "axios": "^0.25.0",
+    "expo": "~44.0.2",
+    "expo-location": "~14.0.1",
+    "expo-splash-screen": "~0.14.1",
+    "expo-sqlite": "~10.1.0",
+    "expo-status-bar": "~1.2.0",
+    "lottie-react-native": "^5.0.1",
+    "react": "17.0.1",
+    "react-dom": "^17.0.1",
+    "react-google-maps": "^9.4.5",
+    "react-native": "0.64.3",
+    "react-native-animation-library": "^0.0.8",
+    "react-native-circular-progress": "^1.3.7",
+    "react-native-elements": "^3.4.2",
+    "react-native-reanimated": "^2.8.0",
+    "react-native-redash": "^16.2.3",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-safe-modules": "^1.0.3",
+    "react-native-screens": "~3.10.1",
+    "react-native-sqlite-storage": "^6.0.1",
+    "react-native-svg": "^12.3.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-native-web": "^0.17.1",
+    "react-native-web-maps": "^0.3.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@expo/webpack-config": "^0.16.16",
+    "babel-plugin-react-native-web": "^0.17.5"
+  },
+  "private": true
+}

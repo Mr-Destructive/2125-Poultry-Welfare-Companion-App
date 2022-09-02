@@ -1,0 +1,122 @@
+Generated Data Guide
+
+Complexes Generated on 3/3/22:
+
+STANDARD
+    complex1, complex2, complex3, complex4
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1-6
+            Houses 1-4
+                Mics 0-15
+
+MORE HOUSES
+    complex5, complex6
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1-6
+            Houses 1-8
+                Mics 0-15
+
+LONGER DATE RANGE
+    complex7, complex8
+        Start Date: 01-31-2022
+        Number of Days: 30
+        Hours per Day: 8
+        Farms 1-6
+            Houses 1-4
+                Mics 0-15
+
+OUTDATED
+    complex9
+        Start Date: 01-01-1975
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1-6
+            Houses 1-4
+                Mics 0-15
+
+IRREGULAR LAYOUT
+    complex10
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1-3
+            Houses 1-5
+                Mics 0-23
+        Farms 4-5
+            Houses 1-2
+                Mics 0-8
+    
+MORE HOURS
+    complex11
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 20
+        Farms 1-6
+            Houses 1-4
+                Mics 0-15
+
+LESS HOURS
+    complex12
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 4
+        Farms 1-6
+            Houses 1-4
+                Mics 0-15
+
+SIMPLE
+    complex13
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1
+            Houses 1
+                Mics 0-15
+
+DIFFERING DATES
+    complex14
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1-2
+            Houses 1-2
+            Start Date: 02-19-2022
+                Mics 0-15
+            Houses 3-4
+            Start Date: 02-23-2022
+                Mics 0-15
+        Farms 3-4
+        Start Date: 02-16-2022
+            Houses 1-2
+                Mics 0-15
+
+ONE EMPTY MIC
+    complex15
+        Farms 1-4
+            Houses 1-4
+                Mics 0
+
+FOURTH FARM ONE EMPTY MIC
+    complex15
+        Start Date: 02-23-2022
+        Number of Days: 7
+        Hours per Day: 8
+        Farms 1-3
+            Houses 1-4
+                Mics 0-15
+        Farms 4
+            Houses 1-4
+                Mics 0
+
+DEMO DATA
+    complex16, complex17, complex18
+        Start Date: 03-15-2022
+        Number of Days: 50
+        Hours per Day: 8
+        Farms 1-6
+            Houses 1-4
+                Mics 0-15
+                
