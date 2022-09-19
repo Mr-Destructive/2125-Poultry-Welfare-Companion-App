@@ -1,5 +1,16 @@
 # Poultry-Welfare-Companion-App
-Chris Antley, Sahil Sudhir, Nilesh Manivannan, Meena Ajith, Ethan Boone, Akash Veerappan
-Squash has landed :)
-Nilesh Test Commit
-Meena Test Commit
+Front-end application that provides visualization of data collected and distilled by AudioT, with the goal of informing broiler-house personnel as well as poultry integrators on the health of broiler chickens. 
+
+## Release Notes
+
+Version 0.1.0
+
+**New Features**
+- added legacy code from Team 1314 (ChickenChecker-1314-main)
+
+**Bug Fixes**
+- N/A
+
+**Known Issues**
+- Divide-by-zero error in Django GUI when checking farms
+- Back button not present in web-app
