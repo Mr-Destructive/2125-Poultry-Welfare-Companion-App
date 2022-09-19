@@ -1,6 +1,8 @@
 # Poultry-Welfare-Companion-App
 Front-end application that provides visualization of data collected and distilled by AudioT, with the goal of informing broiler-house personnel as well as poultry integrators on the health of broiler chickens. 
 
+[License](https://github.com/ChrisAntley1/2125-Poultry-Welfare-Companion-App/blob/main/LICENSE)
+
 ## Release Notes
 
 Version 0.1.0
