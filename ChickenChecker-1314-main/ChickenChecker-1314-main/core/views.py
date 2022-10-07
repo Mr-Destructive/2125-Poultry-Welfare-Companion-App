@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.http import HttpResponse
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
@@ -108,7 +108,8 @@ def listHouses(request, userid):
         houses = House.objects.filter(farm=farms[0])
         serializer = HouseSerializer(houses, many=True)
         return Response(serializer.data)
-    return Response("No such farm", status=status.HTTP_404_NOT_FOUND)
+    complexid = Complex.objects.get(user=user.id)
+    return redirect("addfarm", complexid.id)
 
 @api_view(['POST'])
 def updateUsername(request):
