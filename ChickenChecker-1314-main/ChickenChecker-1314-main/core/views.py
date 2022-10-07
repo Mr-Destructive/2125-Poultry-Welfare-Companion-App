@@ -102,11 +102,13 @@ def addFarm(request, complexid):
 
 @api_view(['GET'])
 def listHouses(request, userid):
-	user = User.objects.get(id=userid)
-	farms = Farm.objects.filter(user=user)
-	houses = House.objects.filter(farm=farms[0])
-	serializer = HouseSerializer(houses, many=True)
-	return Response(serializer.data)
+    user = User.objects.get(id=userid)
+    farms = Farm.objects.filter(user=user)
+    if farms:
+        houses = House.objects.filter(farm=farms[0])
+        serializer = HouseSerializer(houses, many=True)
+        return Response(serializer.data)
+    return Response("No such farm", status=status.HTTP_404_NOT_FOUND)
 
 @api_view(['POST'])
 def updateUsername(request):
